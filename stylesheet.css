@@ -1,0 +1,48 @@
+main {
+	background-color: rgb(41,142,234);
+	width: 100%;
+	font-family: "Arial";
+}
+
+.logo {
+	height: 35px;
+}
+
+login-box {
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: auto, auto;
+}
+
+legend {
+	size: 20px;
+}
+
+.user-entry {
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border: 2px solid gray;
+}
+
+.sign-up-button {
+	background-color: rgb(21,205,119);
+	color: white;
+	border: 2px solid rgb(21,205,119);
+}
+
+.sign-up-button:hover {
+	background-color: rgb(21,255,119);
+}
+
+.forgot-password {
+	font-size: 10px;
+	color: grey;
+}
+
+.got-account {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
