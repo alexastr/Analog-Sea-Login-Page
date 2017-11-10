@@ -1,48 +1,97 @@
 main {
 	background-color: rgb(41,142,234);
-	width: 100%;
+	/*width: 100%;*/
 	font-family: "Arial";
+	font-size: 15px;
 }
 
 .logo {
+	display: block;
 	height: 35px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
-login-box {
-	width: 400px;
+.login-box {
+	width: 320px;
 	padding-left: 40px;
 	padding-right: 40px;
-	margin: auto, auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 3px;
+}
+
+fieldset {
+	border: 0px;
+	padding-left: 0px;
+	margin: 0 auto;
 }
 
 legend {
-	size: 20px;
+	font-size: 30px;
+	text-align: center;
+	color: rgb(105,105,105);
+	border: none;
+}
+
+label {
+	display: block;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+input {
+	font-size: 12px;
+	font-color: rgb(211,211,211);
 }
 
 .user-entry {
-	width: 320px;
-	height: 55px;
-	padding: 15px;
+	border-radius: 3px;
+	margin: 0, auto;
+	display: block;
+}
+
+.user-login-field {
 	border: 2px solid gray;
+	width: 286px;
+	height: 21px;
+	padding: 15px;
+}
+
+.text-input {
+	padding-bottom: 20px;
 }
 
 .sign-up-button {
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	text-align: center;
 	background-color: rgb(21,205,119);
 	color: white;
 	border: 2px solid rgb(21,205,119);
+	font-size: 20px;
 }
 
 .sign-up-button:hover {
-	background-color: rgb(21,255,119);
+	background-color: rgb(21,235,119);
+}
+
+.got-account, .forgot-password {
+	text-align: center;
 }
 
 .forgot-password {
 	font-size: 10px;
 	color: grey;
+	margin-top: 0px;
 }
 
 .got-account {
-	font-size: 20px;
 	color: white;
 	font-weight: bold;
 }
